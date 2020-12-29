@@ -1,0 +1,178 @@
+/*
+================
+Global Styles
+================
+*/
+
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+.body{
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+h1{
+    font-size: 3em;
+}
+h3{
+    font-size: 2em;
+}
+h5{
+    font-size: 1.5em;
+}
+
+
+
+/*
+================
+Hero Section
+================
+*/
+.hero{
+
+background: linear-gradient(to bottom right, #2196F3, #009688);
+height: 100vh;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: cornsilk;
+}
+.Menu{
+width: 100%;
+background-color: yellow;
+height: 40px;
+}
+.Menu ul{
+text-align: center;
+}
+.Menu ul li{
+    list-style: none;
+display: inline;
+}
+.Menu ul li a{
+
+display: inline-block;
+line-height: 40px;
+
+padding: 0 15px;
+}
+/*
+=============
+Services Area
+=============
+*/
+.services{
+clear: both;
+display: table;
+width: 100%;
+background-color: hsl(0, 0%, 95%);
+padding-top: 100px;
+padding-bottom: 100px;
+text-align: center;
+}
+.col-wrapper{
+width: 90%;
+margin: auto;
+padding-top: 50px;
+}
+.services-col{
+    width: 33.33%;
+    float: left;
+    padding: 10px 30px 10px 30px;
+}
+.services-col img{
+width: 80px;
+max-width: 100px;
+}
+.col-wrapper::after{
+clear: both;
+display: table;
+content: '*****';
+}
+/*
+================
+About Us Section
+================
+*/
+.aboutus{
+    padding-top: 100px ;
+    padding-bottom: 100px;
+    text-align: center;
+background-image:url(aboutus.jpg) ;
+
+}
+.headingabout{
+text-align: center;
+}
+.AboutUs-Btn{
+
+padding: 5px 10px;
+background-color: transparent;
+border-radius: 10px;
+
+
+}
+/*
+================
+Team Section
+================
+*/
+.founder{
+font-size: medium;
+font-weight: normals;
+}
+.team{
+padding-top: 100px;
+padding-bottom: 100px;
+background-color: hsl(0, 0%, 95%);
+width: 100%;
+text-align: center;
+}
+.team-wrapper{
+width: 90%;
+padding-top: 50px;
+margin: auto;
+}
+.team-col{
+width: 33.33%;
+
+padding: 10px, 30px,10px,30px;
+}
+.team-col img{
+width: 80px;
+max-width: 100%;
+}
+.wrap{
+    display: flex;
+    flex-direction: row;
+}
+/*
+================
+Contact Section
+================
+*/
+
+.Contact{
+width: 100%;
+background-color: hsl(0, 0%, 95%);
+}
+.cta{
+background-color: yellow;
+width: 100%;
+padding: 30px 5px 30px 5px;
+text-align: center;
+}
+.cta-col{
+width: 33.33%;
+float: left;
+
+}
+.cta::after{
+content: "";
+clear: both;
+display: table;
+}
